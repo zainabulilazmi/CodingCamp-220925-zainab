@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Website</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="logo">😊</div>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Our Profile</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Message Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Hi Harfi, Welcome To Website</h1>
+    <p>Ini adalah website latihan pertama</p>
+    <div class="hero-img">1366x578</div>
+  </section>
+
+  <!-- Headquarters -->
+    <section class="headquarter">
+    <h2>Our Headquarter</h2>
+    <div class="locations">
+        <div class="location-item">
+        <div class="circle"></div> <!-- Circle kosong; bisa tambahkan ikon/logo jika perlu -->
+        <div class="city">Jakarta</div>
+        </div>
+        <div class="location-item">
+        <div class="circle"></div>
+        <div class="city">Bandung</div>
+        </div>
+        <div class="location-item">
+        <div class="circle"></div>
+        <div class="city">Surabaya</div>
+        </div>
+    </div>
+    </section>
+
+  <!-- Message Us -->
+  <section class="message">
+    <h2>Message Us</h2>
+    <div class="form-box">
+      <form id="formMessage">
+        <label>Nama</th>
+		<th>:</th>
+		<td></label><input type="text" id="nama"><br><br>
+        <label>Tanggal Lahir<th>:</th> </label><input type="date" id="tglLahir"><br><br>
+        <label>Jenis Kelamin   :</label>
+        <input type="radio" name="gender" value="Laki-Laki" checked> Laki-Laki
+        <input type="radio" name="gender" value="Perempuan"> Perempuan<br><br>
+        <label>Pesan:</label><br>
+        <textarea id="pesan"></textarea><br><br>
+        <button type="submit">Submit</button>
+      </form>
+
+      <div class="output">
+        <p><b>Current time :</b> <span id="currentTime"></span></p>
+        <p><b>Nama :</b> <span id="outNama"></span>
+        <p><b>Tanggal Lahir :</b> <span id="outTgl"></span>
+        <p><b>Jenis Kelamin :</b> <span id="outGender"></span>
+        <p><b>Pesan :</b> <span id="outPesan"></span>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    Created By RevoU
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
